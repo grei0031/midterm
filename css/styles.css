@@ -63,8 +63,6 @@ padding-bottom: 10px;
 padding-top: 20px;
 }
 
-
-
 	h2 {
 		font-size: x-large;
 		padding-top: 10px;
@@ -77,6 +75,21 @@ padding-top: 20px;
 		padding-bottom: 10px; 
 	}
 
+	.container {
+		width: 1024px; 
+		background-color:#d4e9e7; 
+		margin: 0 auto;
+	}
+
+    .footer {
+		width: 974px;
+text-align: right;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-inline-end: 50px;}
+
+	/*images and paragraph */ 
+
 .centered {
 
     position: absolute;
@@ -86,10 +99,6 @@ padding-top: 20px;
 	color: whitesmoke;
 	font-size: 350%;
 
-}
-
-.container {
-    width: 1024px; background-color:#d4e9e7; margin: 0 auto;
 }
 
 .large {
@@ -108,7 +117,17 @@ margin-bottom: -3px;
 	padding: 15px;
 }
 
+
+p {
+	line-height: 1.5;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* form css */ 
+
 .facts {
+	line-height:1.25;
 	list-style-type: disc;
 	padding-top: 10px;
 	padding-left: 35px;
@@ -122,16 +141,6 @@ form {
     height: 450px;
     margin: auto;
     position: relative;
-}
-
-
-p {
-	line-height: 1.5;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-form {
 	padding-left: 15px;
 }
 
@@ -150,13 +159,11 @@ input[type=submit] {
 	margin-top: 10px;
 }
 
-
-
 input[type=text] {
 	width: 95%;
 }
 
-/* CSS CLASS */
+/* nav items */
 
 nav ul {
 	list-style: none;
